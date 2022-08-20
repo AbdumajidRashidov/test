@@ -1,0 +1,230 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+ul,li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background-color: #1FBD8A;
+    padding: 20px;
+    box-shadow: 0px 5.69882px 9.49804px rgba(19, 40, 29, 0.098);
+    border-radius: 0px;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    align-items:center
+}
+.list{
+    display: flex;
+    align-items:center
+}
+.list_item{
+    margin-left: 45px;
+    
+}
+.list_item a{
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.container{
+    max-width: 1170px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.auth_buttons{
+    display: flex;
+    align-items:center;
+}
+
+.auth_buttons a{
+    margin-left: 35px;
+}
+.login_link{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.get_api{
+    padding: 10px 35px;
+    background: #F4FBF9;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #24475B;
+}
+.intro{
+    background-color:#1FBD8A;
+    padding-top:50px;
+    height: 1100px;
+}
+.intro_wrapper{
+    display: flex;
+}
+.intro-left{
+    width: 550px;
+}
+
+.intro-left h1{
+    font-size: 60px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+.intro-left p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.badge{
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 33px;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.intro_buttons{
+    display: flex;
+    align-items:center;
+    width: 100%;
+}
+.intro_buttons a{
+    margin: 5px;
+    border-radius: 50px;
+}
+.gets_start{
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #013A51;
+    padding: 15px 90px;
+    background: #FFFFFF;
+}
+.lets_talk{
+    background: #192F44;
+    padding: 15px 90px;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.intro-img{
+    position: absolute;
+    right: 0;
+}
+.partners{
+    margin-top: 420px;
+    background-color: #FBFCF5;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.map{
+    background-color:#FBFCF5;
+    padding-bottom: 150px;
+}
+.map_top{
+    padding-top: 150px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.map_top span{
+    font-size: 18px;
+    line-height: 24px;
+    color: #00CA90;
+    margin-bottom: 10px;
+}
+.map_top h2{
+    font-size: 42px;
+    line-height: 56px;
+    color: #013A51;
+    margin-bottom: 13px;
+}
+.map_top p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #013A51;
+    width: 846px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.map_buttons{
+    margin-top: 20px;
+}
+.map_getstart{
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 15px 58px;
+    background: #00CA90;
+    border-radius: 50px;
+    display: inline-block;
+    width: 255px;
+}
+.map_letstalk{
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 15px 58px;
+    background: #192F44;
+    border-radius: 50px;
+    display: inline-block;
+    width: 255px;
+    margin-left: 12px;
+}
+
+.how_it_works{
+    background: #F2F4E8;
+    padding: 150px 0;
+}
+.how_wrapp{
+    display: flex;
+}
+.how_left span{
+font-size: 18px;
+line-height: 24px;
+color: #00CA90;
+}
